@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+* {
+    /* border: 2px solid red; */
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FaF8;
+}
+
+#logo {
+    margin-right: auto;
+}
+.round {
+    border-radius: 10px;
+}
+
+.but-col {
+    background-color: #3882F6;
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.info-block {
+    text-align: center;
+}
+.intro-block {
+    display: flex;
+    gap: 64px;
+}
+.img-placeholder {
+    width: 512px;
+    height: 256px;
+    background-color: grey;
+}
+.block {
+    padding: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.quote-bg {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+#quote-name {
+    text-align: end;
+}
+.call-to-action {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.call-to-action button {
+    border: 1px solid white;
+}
+
+.image-examples {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.example p {
+    text-align: center;
+    color: grey;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-image {
+    width: 256px;
+    height: 256px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+header {
+    display: flex;
+    gap: 12px;
+    border-bottom: 1px solid black;
+    justify-content: end;
+    padding: 5px 40px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: 0px solid white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #80b1ff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
